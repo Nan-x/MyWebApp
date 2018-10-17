@@ -1,0 +1,43 @@
+<h1>{{title}}</h1>
+<p> {{title}}</p>
+
+{{> jobs}}
+    <div class="table">
+        <h2>
+            {{title}}
+        </h2>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Job Title</th>
+                <th>Decription</th>
+                <th>Location</th>
+                <th> Price</th>
+                <th> Job Offers</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#each jobs}}
+                <tr>
+                    <td>
+                        {{titles}}
+                    </td>
+                    <td>
+                        {{description}}
+                    </td>
+                    <td>
+                        {{location}}
+                    </td>
+                    <td>
+                        {{price}}
+                    </td>
+                    <td>
+                        {{jobOffers}}
+                    </td>
+                </tr>
+            {{/each}}
+            </tbody>
+        </table>
+       {{/jobs}}
+    </div>
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+<!-- <link rel='stylesheet' href='/stylesheets/style.css' />-->
+</head>
+<body>
+<section class="ui container">
+<h1>array.filter is not a function</h1>
+<h2></h2>
+<pre>TypeError: array.filter is not a function
+at getByValue (C: \Users\rhian\WebstormProjects\MyWebApp\routes\jobs.js: 93: 25)
+at router.findOne (C: \Users\rhian\WebstormProjects\MyWebApp\routes\jobs.js: 34: 17)
+at Layer.handle [as handle_request] (C: \Users\rhian\WebstormProjects\MyWebApp\node_modules\express\lib\router\layer.js: 95: 5)
+at next (C: \Users\rhian\WebstormProjects\MyWebApp\node_modules\express\lib\router\route.js: 137: 13)
+at Route.dispatch (C: \Users\rhian\WebstormProjects\MyWebApp\node_modules\express\lib\router\route.js: 112: 3)
+at Layer.handle [as handle_request] (C: \Users\rhian\WebstormProjects\MyWebApp\node_modules\express\lib\router\layer.js: 95: 5)
+at C: \Users\rhian\WebstormProjects\MyWebApp\node_modules\express\lib\router\index.js: 281: 22
+at param (C: \Users\rhian\WebstormProjects\MyWebApp\node_modules\express\lib\router\index.js: 354: 14)
+at param (C: \Users\rhian\WebstormProjects\MyWebApp\node_modules\express\lib\router\index.js: 365:14)
+at Function.process_params (C: \Users\rhian\WebstormProjects\MyWebApp\node_modules\express\lib\router\index.js: 410: 3)
+at next (C: \Users\rhian\WebstormProjects\MyWebApp\node_modules\express\lib\router\index.js:275: 10)
+at C: \Users\rhian\WebstormProjects\MyWebApp\node_modules\express\lib\router\index.js: 635: 15
+at next (C: \Users\rhian\WebstormProjects\MyWebApp\node_modules\express\lib\router\index.js: 260: 14)
+at Function.handle (C: \Users\rhian\WebstormProjects\MyWebApp\node_modules\express\lib\router\index.js: 174: 3)
+at router (C: \Users\rhian\WebstormProjects\MyWebApp\node_modules\express\lib\router\index.js: 47: 12)
+at Layer.handle [as handle_request] (C: \Users\rhian\WebstormProjects\MyWebApp\node_modules\express\lib\router\layer.js: 95: 5)</pre>
+
+</section>
+</body>
+</html>

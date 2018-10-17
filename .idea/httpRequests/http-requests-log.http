@@ -1,0 +1,392 @@
+GET http://localhost:3000/jobs/100001111
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-16T072055.200.json
+
+###
+
+GET http://localhost:3000/jobs/100001
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-16T071301.500.json
+
+###
+
+GET http://localhost:3000/jobs/1000001
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-16T071258.500.json
+
+###
+
+GET http://localhost:3000/jobs/5bc61e29b7b0bcc67e0ecbc5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-16T071236.500.json
+
+###
+
+GET http://localhost:3000/jobs/ObjectId("5bc61e29b7b0bcc67e0ecbc5")
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3000/jobs/%20ObjectId("5bc61e29b7b0bcc67e0ecbc5")
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3000/jobs
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-16T070659.200.json
+
+###
+
+GET http://localhost:3000/jobs
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3000/jobs
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3000/jobs
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-06T122755.200.json
+
+###
+
+GET http://localhost:3000/jobs/1000002
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-06T122750.200.json
+
+###
+
+GET http://localhost:3000/jobs/1000002
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-06T122734.200.json
+
+###
+
+GET http://localhost:3000/jobs/1000002
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T080428.200.json
+
+###
+
+GET http://localhost:3000/jobs/1000002
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T070643.200.json
+
+###
+
+GET http://localhost:3000/jobs/1000002
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T065303.200.json
+
+###
+
+GET http://localhost:3000/jobs/1000001
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T065300.200.json
+
+###
+
+GET http://localhost:3000/jobs
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T065253.200.json
+
+###
+
+GET http://localhost:3000/jobs/1000002
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T065251.200.json
+
+###
+
+GET http://localhost:3000/jobs/1000002
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T065203.200.json
+
+###
+
+GET http://localhost:3000/jobs/1000002
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T064427.200.json
+
+###
+
+GET http://localhost:3000/jobs/1000002
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T064424.200.json
+
+###
+
+GET http://localhost:3000/jobs/1000001
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T064301.200.json
+
+###
+
+GET http://localhost:3000/jobs
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T064108.200.json
+
+###
+
+GET http://localhost:3000/jobs/1000001
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T064104.200.json
+
+###
+
+GET http://localhost:3000/jobs/1000001
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T064101.200.json
+
+###
+
+GET http://localhost:3000/jobs/10001
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T064059.200.json
+
+###
+
+GET http://localhost:3000/jobs/1000001
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T064056.200.json
+
+###
+
+GET http://localhost:3000/jobs/100001
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T064054.200.json
+
+###
+
+GET http://localhost:3000/jobs/100001
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T064051.200.json
+
+###
+
+GET http://localhost:3000/jobs/100001
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T064046.200.json
+
+###
+
+GET http://localhost:3000/jobs/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T064031.200.json
+
+###
+
+PUT http://localhost:3000/jobs/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T064012.404.html
+
+###
+
+PUT http://localhost:3000/jobs/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T063625.404.html
+
+###
+
+PUT http://localhost:3000/jobs/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T063543.404.html
+
+###
+
+PUT http://localhost:3000/jobs/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T063342.404.html
+
+###
+
+PUT http://localhost:3000/jobs/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T063247.404.html
+
+###
+
+GET http://localhost:3000/jobs/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T034923.200.json
+
+###
+
+GET http://localhost:3000/jobs/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T034905.200.json
+
+###
+
+GET http://localhost:3000/jobs/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T034859.200.json
+
+###
+
+GET http://localhost:3000/jobs/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T034854.200.json
+
+###
+
+GET http://localhost:3000/jobs/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T034451.200.json
+
+###
+
+PUT http://localhost:3000/jobs/1000001/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T034437.200.json
+
+###
+
+PUT http://localhost:3000/jobs/1000001/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T034436.200.json
+
+###
+
+PUT http://localhost:3000/jobs/1000001/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T034434.200.json
+
+###
+
+PUT http://localhost:3000/jobs/1000001
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T034422.404.html
+
+###
+
+GET http://localhost:3000/jobs/1000001
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T034411.200.json
+
+###
+
+GET http://localhost:3000/jobs/100001
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T034408.200.json
+
+###
+
+GET http://localhost:3000/jobs/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T034111.200.json
+
+###
+
+PUT http://localhost:3000/jobs/1000001/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T034055.200.json
+
+###
+
+PUT http://localhost:3000/jobs/1000001/jobOffers
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-05T034052.200.json
+
+###
+
