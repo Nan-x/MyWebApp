@@ -1,3 +1,158 @@
+POST http://localhost:3000/jobs
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000003, "title" : "FREE LIFT", "description" : "LALALALA", "location" : "over there","startingPrice" : 20, "jobOffers" : 0}
+
+<> 2018-10-23T043748.200.json
+
+###
+
+DELETE http://localhost:3000/jobs/5bc9ec829bc64527f00bab57
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000003, "title" : "FREE LIFT", "description" : "LALALALA", "location" : "over there","startingPrice" : 20, "jobOffers" : 0}
+
+<> 2018-10-23T104302.200.json
+
+###
+
+PUT http://localhost:3000/jobs/5bc9ec829bc64527f00bab57/jobOffers
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000003, "title" : "FREE LIFT", "description" : "LALALALA", "location" : "over there","startingPrice" : 20, "jobOffers" : 0}
+
+<> 2018-10-23T104139.200.json
+
+###
+
+PUT http://localhost:3000/jobs/5bc9ec829bc64527f00bab57/jobOffers
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000003, "title" : "FREE LIFT", "description" : "LALALALA", "location" : "over there","startingPrice" : 20, "jobOffers" : 0}
+
+###
+
+PUT http://localhost:3000/jobs/5bc9ec829bc64527f00bab57/jobOffers
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000003, "title" : "FREE LIFT", "description" : "LALALALA", "location" : "over there","startingPrice" : 20, "jobOffers" : 0}
+
+###
+
+PUT http://localhost:3000/jobs/5bc9ec829bc64527f00bab57/jobOffers
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000003, "title" : "FREE LIFT", "description" : "LALALALA", "location" : "over there","startingPrice" : 20, "jobOffers" : 0}
+
+###
+
+PUT http://localhost:3000/jobs/5bc9ec829bc64527f00bab57/jobOffers
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000003, "title" : "FREE LIFT", "description" : "LALALALA", "location" : "over there","startingPrice" : 20, "jobOffers" : 0}
+
+###
+
+PUT http://localhost:3000/jobs/5bc9ec829bc64527f00bab57/jobOffers
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000003, "title" : "FREE LIFT", "description" : "LALALALA", "location" : "over there","startingPrice" : 20, "jobOffers" : 0}
+
+###
+
+PUT http://localhost:3000/jobs/100002/jobOffers
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000003, "title" : "FREE LIFT", "description" : "LALALALA", "location" : "over there","startingPrice" : 20, "jobOffers" : 0}
+
+<> 2018-10-23T103931.200.json
+
+###
+
+PUT http://localhost:3000/jobs/100002/jobOffers
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000003, "title" : "FREE LIFT", "description" : "LALALALA", "location" : "over there","startingPrice" : 20, "jobOffers" : 0}
+
+###
+
+PUT http://localhost:3000/jobs/100002/jobOffers
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000003, "title" : "FREE LIFT", "description" : "LALALALA", "location" : "over there","startingPrice" : 20, "jobOffers" : 0}
+
+###
+
+PUT http://localhost:3000/jobs/100002/jobOffers
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000003, "title" : "FREE LIFT", "description" : "LALALALA", "location" : "over there","startingPrice" : 20, "jobOffers" : 0}
+
+###
+
+PUT http://localhost:3000/jobs/100002/jobOffers
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000003, "title" : "FREE LIFT", "description" : "LALALALA", "location" : "over there","startingPrice" : 20, "jobOffers" : 0}
+
+###
+
+PUT http://localhost:3000/jobs/100002/jobOffers
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000003, "title" : "FREE LIFT", "description" : "LALALALA", "location" : "over there","startingPrice" : 20, "jobOffers" : 0}
+
+###
+
+POST http://localhost:3000/jobs
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000003, "title" : "FREE LIFT", "description" : "LALALALA", "location" : "over there","startingPrice" : 20, "jobOffers" : 0}
+
+<> 2018-10-19T033858.200.json
+
+###
+
+POST http://localhost:3000/jobs
+Accept: */*
+Cache-Control: no-cache
+
+{"id" : 1000003, "title" : "FREE LIFT", "description" : "LALALALA", "location" : "over there","startingPrice" : 20, "jobOffers" : 0}
+
+<> 2018-10-19T033621.200.json
+
+###
+
 GET http://localhost:3000/jobs/100001111
 Accept: */*
 Cache-Control: no-cache
@@ -259,134 +414,6 @@ Accept: */*
 Cache-Control: no-cache
 
 <> 2018-10-05T063543.404.html
-
-###
-
-PUT http://localhost:3000/jobs/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T063342.404.html
-
-###
-
-PUT http://localhost:3000/jobs/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T063247.404.html
-
-###
-
-GET http://localhost:3000/jobs/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T034923.200.json
-
-###
-
-GET http://localhost:3000/jobs/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T034905.200.json
-
-###
-
-GET http://localhost:3000/jobs/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T034859.200.json
-
-###
-
-GET http://localhost:3000/jobs/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T034854.200.json
-
-###
-
-GET http://localhost:3000/jobs/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T034451.200.json
-
-###
-
-PUT http://localhost:3000/jobs/1000001/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T034437.200.json
-
-###
-
-PUT http://localhost:3000/jobs/1000001/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T034436.200.json
-
-###
-
-PUT http://localhost:3000/jobs/1000001/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T034434.200.json
-
-###
-
-PUT http://localhost:3000/jobs/1000001
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T034422.404.html
-
-###
-
-GET http://localhost:3000/jobs/1000001
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T034411.200.json
-
-###
-
-GET http://localhost:3000/jobs/100001
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T034408.200.json
-
-###
-
-GET http://localhost:3000/jobs/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T034111.200.json
-
-###
-
-PUT http://localhost:3000/jobs/1000001/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T034055.200.json
-
-###
-
-PUT http://localhost:3000/jobs/1000001/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T034052.200.json
 
 ###
 

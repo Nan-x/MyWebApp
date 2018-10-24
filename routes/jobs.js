@@ -4,8 +4,8 @@ let router = express.Router();
 let mongoose = require('mongoose');
 let Jobs = require('../models/jobs');
 
-
-mongoose.connect('mongodb://localhost:27017/jobsdb');
+var mongodbUrl = 'mongodb://jobsdb:rhianna123@ds223578.mlab.com:23578/jobsdb'
+mongoose.connect(mongodbUrl);
 
 let db = mongoose.connection;
 
@@ -46,7 +46,7 @@ router.addJob = (req, res) => {
     let id = Math.floor((Math.random() * 100000) + 1);
     var job = new Jobs();
 
-
+        job.id = id;
         job.title =  req.body.title;
         job.description = req.body.description;
         job.location = req.body.location;
@@ -63,30 +63,30 @@ router.addJob = (req, res) => {
 
 router.incrementJobOffers = (req, res) => {
 
-    let job = getByValue(jobs,req.params.id);
-
-    if (job != null) {
-        job.jobOffers += 1;
-        res.json({status : 200, message : 'JobOFFER Successful' , job : job });
-    }
-    else
-        res.send('Job NOT Found - JobOffer NOT Successful!!');
-
+ Jobs.findById(req.params.id, function(err,job){
+     if(err)
+         res.json({message: "Job NOT Found", errmsg : err } );
+     else{
+         job.jobOffers += 1;
+         job.save(function (err) {
+             if(err)
+                 res.json({message : "Job Offer could NOT be made", errmsg : err});
+             else
+                 res.json({message : "Job Off Successfully MAde", errmsg : err});
+         });
+     }
+  });
 
 }
 
 router.deleteJob = (req, res) => {
 
-    let job = getByValue(jobs, req.params.id);
-    let index = jobs.indexOf(job);
-
-    let currentSize = jobs.length;
-    jobs.splice(index, 1);
-
-    if((currentSize - 1) === jobs.length)
-        res.json({message: "Job Post Deleted!"});
+Jobs.findByIdAndRemove(req.params.id, function(err){
+    if(err)
+        res.json({ message: "Job not Deleted", errmsg : err});
     else
-        res.json({message: "Job Post NOT Deleted!"});
+        res.json({message: "Job DELETED!"});
+    });
 
 }
 
