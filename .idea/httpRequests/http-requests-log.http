@@ -1,3 +1,23 @@
+POST https://calm-peak-14055.herokuapp.com/jobs
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000004, "title" : "test", "description" : "test", "location" : "test","startingPrice" : 90, "jobOffers" : 0}
+
+<> 2018-10-24T082518.200.json
+
+###
+
+POST http://localhost:3000/jobs
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000004, "title" : "test", "description" : "test", "location" : "test","startingPrice" : 90, "jobOffers" : 0}
+
+###
+
 POST http://localhost:3000/jobs
 Accept: */*
 Cache-Control: no-cache
@@ -398,22 +418,6 @@ Accept: */*
 Cache-Control: no-cache
 
 <> 2018-10-05T064012.404.html
-
-###
-
-PUT http://localhost:3000/jobs/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T063625.404.html
-
-###
-
-PUT http://localhost:3000/jobs/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T063543.404.html
 
 ###
 
