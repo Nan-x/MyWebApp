@@ -1,3 +1,230 @@
+GET https://calm-peak-14055.herokuapp.com/jobs
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+<> 2018-10-26T114635-2.200.json
+
+###
+
+GET https://calm-peak-14055.herokuapp.com/jobs
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+<> 2018-10-26T114635-1.200.json
+
+###
+
+GET https://calm-peak-14055.herokuapp.com/jobs
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+<> 2018-10-26T114635.200.json
+
+###
+
+GET https://calm-peak-14055.herokuapp.com/jobs
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+<> 2018-10-26T114632.200.json
+
+###
+
+GET https://calm-peak-14055.herokuapp.com/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+<> 2018-10-26T114616.200.html
+
+###
+
+GET https://calm-peak-14055.herokuapp.com/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+<> 2018-10-26T114615-1.200.html
+
+###
+
+GET https://calm-peak-14055.herokuapp.com/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+<> 2018-10-26T114615.200.html
+
+###
+
+GET https://calm-peak-14055.herokuapp.com/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+<> 2018-10-25T061613.200.html
+
+###
+
+GET https://calm-peak-14055.herokuapp.com/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+<> 2018-10-25T061606.200.html
+
+###
+
+POST https://calm-peak-14055.herokuapp.com/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+<> 2018-10-25T061420.404.html
+
+###
+
+POST https://calm-peak-14055.herokuapp.com/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+<> 2018-10-25T060951.404.html
+
+###
+
+GET https://calm-peak-14055.herokuapp.com/jobs
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+<> 2018-10-25T060936.200.json
+
+###
+
+GET https://localhost:3000/jobs
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+###
+
+POST https://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+###
+
+POST https://calm-peak-14055.herokuapp.com/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+<> 2018-10-25T060615.404.html
+
+###
+
+POST https://calm-peak-14055.herokuapp.com/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+<> 2018-10-25T060550-1.404.html
+
+###
+
+POST https://calm-peak-14055.herokuapp.com/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1, "name" : "test", "email" : "test@test", "password" : "test"}
+
+<> 2018-10-25T060550.404.html
+
+###
+
+POST https://calm-peak-14055.herokuapp.com/jobs
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000007, "title" : "Test2", "description" : "Test2", "location" : "Test2","startingPrice" : "2", "jobOffers" : 0}
+
+<> 2018-10-25T051147.200.json
+
+###
+
+POST https://calm-peak-14055.herokuapp.com/jobs
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000007, "title" : "Test2", "description" : "Test2", "location" : "Test2","startingPrice" : 2, "jobOffers" : 0}
+
+<> 2018-10-25T051055.200.json
+
+###
+
+POST https://calm-peak-14055.herokuapp.com/jobs
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000007, "title" : "Jim Stinks", "description" : "and has no friend", "location" : "on an island alone AGAIN","startingPrice" : 2, "jobOffers" : 0}
+
+<> 2018-10-25T050853.200.json
+
+###
+
+POST https://calm-peak-14055.herokuapp.com/jobs
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1000007, "title" : "Jim Stinks", "description" : "and has no friend", "location" : "on an island alone","startingPrice" : 2, "jobOffers" : 0}
+
+<> 2018-10-25T050706.200.json
+
+###
+
 POST https://calm-peak-14055.herokuapp.com/jobs
 Accept: */*
 Cache-Control: no-cache
@@ -250,174 +477,6 @@ Accept: */*
 Cache-Control: no-cache
 
 <> 2018-10-06T122750.200.json
-
-###
-
-GET http://localhost:3000/jobs/1000002
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-06T122734.200.json
-
-###
-
-GET http://localhost:3000/jobs/1000002
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T080428.200.json
-
-###
-
-GET http://localhost:3000/jobs/1000002
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T070643.200.json
-
-###
-
-GET http://localhost:3000/jobs/1000002
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T065303.200.json
-
-###
-
-GET http://localhost:3000/jobs/1000001
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T065300.200.json
-
-###
-
-GET http://localhost:3000/jobs
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T065253.200.json
-
-###
-
-GET http://localhost:3000/jobs/1000002
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T065251.200.json
-
-###
-
-GET http://localhost:3000/jobs/1000002
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T065203.200.json
-
-###
-
-GET http://localhost:3000/jobs/1000002
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T064427.200.json
-
-###
-
-GET http://localhost:3000/jobs/1000002
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T064424.200.json
-
-###
-
-GET http://localhost:3000/jobs/1000001
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T064301.200.json
-
-###
-
-GET http://localhost:3000/jobs
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T064108.200.json
-
-###
-
-GET http://localhost:3000/jobs/1000001
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T064104.200.json
-
-###
-
-GET http://localhost:3000/jobs/1000001
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T064101.200.json
-
-###
-
-GET http://localhost:3000/jobs/10001
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T064059.200.json
-
-###
-
-GET http://localhost:3000/jobs/1000001
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T064056.200.json
-
-###
-
-GET http://localhost:3000/jobs/100001
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T064054.200.json
-
-###
-
-GET http://localhost:3000/jobs/100001
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T064051.200.json
-
-###
-
-GET http://localhost:3000/jobs/100001
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T064046.200.json
-
-###
-
-GET http://localhost:3000/jobs/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T064031.200.json
-
-###
-
-PUT http://localhost:3000/jobs/jobOffers
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-05T064012.404.html
 
 ###
 

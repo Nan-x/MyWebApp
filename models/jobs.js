@@ -7,7 +7,7 @@ let JobsSchema = new mongoose.Schema({
     title: String,
     description: String,
     location: String,
-    startingPRice: Number,
+    startingPrice: Number,
     jobOffers: {type:Number, default: 0}},
 
     {collection:'jobsdb'});

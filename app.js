@@ -5,11 +5,12 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/user-store');
+var usersRouter = require('./routes/users');
 
 var app = express();
 
 const jobs = require("./routes/jobs");
+const users = require("./routes/users");
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -21,18 +22,21 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
 
 app.get('/jobs', jobs.findAll);
 app.get('/jobs/:id', jobs.findOne);
+
+app.get('/users', users.findAll);
 
 //app.get('/jobs/jobOffers', jobs.findTotalJobOffers);
 
 
 app.post('/jobs', jobs.addJob);
+app.post('/users', users.addUser);
 
 app.put('/jobs/:id/jobOffers', jobs.incrementJobOffers);
+
+app.delete('/users/:id', users.deleteUser);
 
 app.delete('/jobs/:id', jobs.deleteJob);
 
